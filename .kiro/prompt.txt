@@ -1,4 +1,0 @@
-Build a frontend-only decision tool that compares AWS EC2 and AWS Lambda
-based on workload type, scalability, cost, and maintenance.
-
-The tool should explain trade-offs instead of giving a single direct answer.
