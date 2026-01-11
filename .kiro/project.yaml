@@ -1,0 +1,7 @@
+Project yaml:
+name: AWS Referee
+description: Compare EC2 vs Lambda
+inputs: [workload, scalability, budget, maintenance]
+output: [recommended_service, explanation]
+tech_stack: [HTML, CSS, JavaScript]
+challenge: Kiro Week 6
