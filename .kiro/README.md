@@ -1,10 +1,10 @@
-# Kiro Referee Tool
+# Kiro Usage Documentation
 
-This project demonstrates a frontend-only AI referee decision tool.
+This project was developed with the help of Kiro to accelerate decision logic design,
+UI structure, and trade-off explanations.
 
-The Kiro agent is used to understand:
-- Project intent
-- UI logic
-- Decision flow
-
-No backend or API is used.
+Kiro was used to:
+- Design the comparison logic
+- Generate clean frontend code
+- Explain AWS EC2 vs Lambda trade-offs
+- Structure the project for the Referee challenge

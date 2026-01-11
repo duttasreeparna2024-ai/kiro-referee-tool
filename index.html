@@ -1,23 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Kiro Referee Tool</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>AWS EC2 vs Lambda – Referee Tool</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <div class="container">
-    <h1>⚽ Kiro Referee Tool</h1>
-    <p>Enter a football scenario and get a referee decision</p>
+<div class="container">
+    <h1>AWS Service Referee 🧠</h1>
+    <p class="subtitle">Compare EC2 vs Lambda based on your requirements</p>
 
-    <textarea id="scenario" placeholder="Describe the incident..."></textarea>
+    <form id="compareForm">
+        <label>Workload Type</label>
+        <select id="workload">
+            <option value="short">Short & Event-based</option>
+            <option value="long">Long Running</option>
+        </select>
 
-    <button onclick="analyzeDecision()">Analyze</button>
+        <label>Scalability Requirement</label>
+        <select id="scaling">
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+        </select>
 
-    <div id="result"></div>
-  </div>
+        <label>Budget Preference</label>
+        <select id="budget">
+            <option value="low">Low Cost</option>
+            <option value="flexible">Flexible</option>
+        </select>
 
-  <script src="script.js"></script>
+        <label>Maintenance Preference</label>
+        <select id="maintenance">
+            <option value="low">Low Maintenance</option>
+            <option value="high">Can Manage Servers</option>
+        </select>
+
+        <button type="submit">Compare</button>
+    </form>
+
+    <div id="result" class="result"></div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>

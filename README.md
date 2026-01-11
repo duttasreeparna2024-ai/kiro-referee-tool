@@ -1,28 +1,28 @@
-# kiro-referee-tool
-AWS EC2 vs Lamda Referee Tool
-# ⚽ Kiro Referee Tool
+# AWS EC2 vs Lambda – Referee Tool
 
-A simple frontend-based referee decision tool that analyzes football match scenarios and suggests referee decisions.
+## Problem Statement
+Choosing the right AWS compute service can be confusing. This tool helps users decide between EC2 and Lambda based on workload characteristics and operational constraints.
 
-This project is built as part of learning frontend development and demonstrates how AI-style logic can be simulated using JavaScript.
+## Solution Overview
+A frontend-only decision tool that compares AWS EC2 and AWS Lambda by analyzing:
+- Workload type
+- Scalability needs
+- Budget preference
+- Maintenance effort
 
----
+## Why This Approach
+Instead of giving a single answer, the tool explains trade-offs so users can make informed decisions.
 
-## 🚀 Features
-
-- User-friendly interface
-- Scenario-based referee decisions
-- Instant decision output
-- Frontend only (no backend required)
-
----
-
-## 🛠️ Tech Stack
-
+## Technology Used
 - HTML
 - CSS
 - JavaScript
 
----
+## How Kiro Helped
+Kiro accelerated development by:
+- Structuring the comparison logic
+- Designing a clean UI
+- Clearly explaining trade-offs
 
-## 📂 Project Structure
+## How to Run
+Open `index.html` in any browser.
